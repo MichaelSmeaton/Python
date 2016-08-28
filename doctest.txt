@@ -1,0 +1,5 @@
+def tag_content(self, open_tag, close_tag, data):
+    """
+    >> > tag_content("b", "b", "small text <b> BIG AND BOLD </b> small text")
+    '<b> BIG AND BOLD </b>'
+    """
